@@ -1,0 +1,198 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.navlink{
+  border: solid 2px;
+}
+
+.frontxt{
+  font-size: 5em;
+}
+
+.signupform{
+  width: 55%;
+  margin-left: 22.5%;
+  border: solid 3px;
+}
+
+.signupform input{
+  width: 60%;
+  margin-left: 20%;
+}
+
+.user{
+  width: 70%;
+  margin-left: 15%;
+}
+.user h1{
+  text-align: left;
+}
+
+.user h5{
+  text-align: left;
+}
+
+.user p{
+  text-align: left;
+}
+
+.len{
+  border: solid 2px black;
+  width: 8%;
+  color: whitesmoke;
+}
+
+.userdiv{
+  border: 1px solid;
+  height: 130px;
+}
+
+.addBook{
+  width: 50%;
+  margin-left: 25%;
+}
+
+.book{
+  border: 1px solid;
+  height: 120px;
+  font-size: .9em;
+}
+
+.book div{
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+  margin-right:30%;
+}
+
+.book span{
+  color: blue;
+}
+
+.center{
+  margin-top: 1%;
+  width: 50%;
+  margin-left: 25%;
+  background: darkgrey;
+  border: 1.5px solid black;
+  padding-bottom: 1%;
+}
+
+.card2{
+  width: 60%;
+  margin-left: 20%;
+  background: whitesmoke;
+}
+
+.card2 div{
+  text-align: left;
+}
+
+.tradereq{
+  text-align: left;
+  margin-left: 2%;
+}
+
+.allTrades{
+  margin-left: 2%;
+}
+
+
+.card3{
+  width: 95%;
+  margin-left: 2.5%;
+  background: whitesmoke;
+}
+.request{
+  background: lightgrey;
+  border: 1px solid;
+  width: 60%;
+  margin-top: 1%;
+}
+
+
+@media only screen and (max-width: 800px){
+  .user{
+    width: 98%;
+    margin-left:1%;
+  }
+  .frontxt{
+    font-size: 2em;
+  }
+  .frontxt1{
+    font-size: .8em;
+  }
+  .signupform{
+    width: 95%;
+    margin-left: 2.5%;
+  }
+
+  .len{
+    width: 30%;
+  }
+
+  .addBook{
+    width: 95%;
+    margin-left: 2.5%;
+  }
+
+  .book{
+    font-size: .7em
+  }
+
+  .center{
+    width: 95%;
+    margin-left: 2.5%;
+  }
+
+  .card2{
+    width: 80%;
+    margin-left: 10%;
+    background: whitesmoke;
+  }
+  .card2 select{
+    width: 75%;
+    margin-left: 12.5%;
+  }
+  .allTrades div button{
+    margin-left: 25%;
+  }
+
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1300px){
+
+.len{
+  width:11%;
+}
+
+}
+
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
